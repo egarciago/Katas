@@ -2,14 +2,15 @@
 class collections:
 
 def main(self):
-
+	self.printNumbers()
 
 def printLettersofWord(self, word):
 	result = []
 
 def printNumbers(self):
-	for num in First100NumbersPairs:
+	for num in self.First100NumbersPairs:
 		print num
+
 def First100NumbersPairs(self):
 	numbers = []
 	num = 2
@@ -21,4 +22,4 @@ def First100NumbersPairs(self):
 	return numbers
 
 if __name__ == '__main__':
-	main()
+	self.main()
