@@ -1,3 +1,4 @@
+import sys
 
 class collections:
 
@@ -8,7 +9,8 @@ class collections:
 		result = []
 
 	def printNumbers(self):
-		for num in self.First100NumbersPairs:
+		numbersFinds = self.First100NumbersPairs()
+		for num in numbersFinds:
 			print num
 
 	def First100NumbersPairs(self):
@@ -22,4 +24,5 @@ class collections:
 		return numbers
 
 if __name__ == '__main__':
-	self.main()
+	collection = collections();
+	collection.main()
