@@ -12,7 +12,7 @@ listZA = listX + listY
 for result in listZA:
 	print result
 
-#Saber el tamano de la lista
+#Mostrar el tamano de cada lista
 print 'ListX ' + str(len(listX))
 print 'ListY ' + str(len(listY))
 print 'ListZ ' + str(len(listZ))
