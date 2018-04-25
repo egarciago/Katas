@@ -10,8 +10,10 @@ class collections:
 
 	def printNumbers(self):
 		numbersFinds = self.First100NumbersPairs()
+		result=''
 		for num in numbersFinds:
-			print num
+			result += str(num) + ','
+		print result
 
 	def First100NumbersPairs(self):
 		numbers = []
