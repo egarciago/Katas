@@ -2,7 +2,7 @@ print "List implementation"
 #Lista declarada, vacia
 listX = []
 #Lista declarada, con valores de diferentes tipos
-listY = ['y', 'n', 1, 0, True, False]
+listY = ['y', 'n', 1, 0, True, False, '1']
 #Esta lista contiene las dos anteriores
 listZ = listX + listY
 listY.append(1)
