@@ -5,8 +5,10 @@ listX = []
 listY = ['y', 'n', 1, 0, True, False]
 #Esta lista contiene las dos anteriores
 listZ = listX + listY
-
+listY.append(1)
 listX.append('Hey!')
+
+print 'Cantidad:' + listY.count(1)
 listZA = listX + listY
 #Se recorre la lista, se agrega a una variable cada elemento de la lista
 for result in listZA:
