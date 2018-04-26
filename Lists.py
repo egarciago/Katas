@@ -8,7 +8,7 @@ listZ = listX + listY
 listY.append(1)
 listX.append('Hey!')
 
-print 'Cantidad:' + listY.count(1)
+print 'Cantidad:' + str(listY.count(1))
 listZA = listX + listY
 #Se recorre la lista, se agrega a una variable cada elemento de la lista
 for result in listZA:
