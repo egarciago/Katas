@@ -15,6 +15,7 @@ print listX.index('rojo')
 listX.reverse()
 print listX.index('rojo')
 listY.sort()
+print listX[0]
 print 'Cantidad:' + str(listY.count(1))
 listZA = listX + listY
 #Se recorre la lista, se agrega a una variable cada elemento de la lista
