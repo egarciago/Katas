@@ -29,13 +29,12 @@ print 'ListZ ' + str(len(listZ))
 print 'ListZA ' + str(len(listZA))
 
 word = 'prueba'
-phrase = 'Hola mundo!'
+
 result = ''
 for lether in word:
 	result += lether + '-'
 print result
 
-for words in phrase:
-	print words
+
 
 
