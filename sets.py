@@ -8,4 +8,5 @@ print set1
 set1.add(3)
 print set1
 
-
+set1.discard(3)
+print set1
