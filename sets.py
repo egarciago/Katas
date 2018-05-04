@@ -10,3 +10,7 @@ print set1
 
 set1.discard(3)
 print set1
+
+set2 = set('Hola')
+
+print set2
