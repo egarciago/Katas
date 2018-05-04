@@ -15,3 +15,4 @@ set2 = set('Hola')
 
 print set2
 print type(set2)
+print set2.pop()
