@@ -14,3 +14,4 @@ print set1
 set2 = set('Hola')
 
 print set2
+print type(set2)
