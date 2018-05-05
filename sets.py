@@ -17,5 +17,8 @@ print set2
 print type(set2)
 print set2.pop()
 
+set3 = set2.copy()
+
 set2.clear()
 print set2
+print set3
