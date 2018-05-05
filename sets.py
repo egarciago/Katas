@@ -22,3 +22,4 @@ set3 = set2.copy()
 set2.clear()
 print set2
 print set3
+print set1.difference(set2)
