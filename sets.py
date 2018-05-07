@@ -23,3 +23,5 @@ set2.clear()
 print set2
 print set3
 print set1.difference(set2)
+
+print set1.intersection(set2)
