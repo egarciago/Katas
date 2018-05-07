@@ -25,3 +25,5 @@ print set3
 print set1.difference(set2)
 
 print set1.intersection(set2)
+
+print set1.union(set2)
