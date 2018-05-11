@@ -31,3 +31,4 @@ print set1.union(set2)
 print set3.union(set2).union(set1)
 
 set3.clear()
+set2.remove()
