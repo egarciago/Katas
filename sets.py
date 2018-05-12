@@ -21,7 +21,7 @@ set3 = set2.copy()
 
 set2.clear()
 print set2.symmetric_difference(set3)
-print set3
+print set3.symmetric_defference(set2)
 print set1.difference(set2)
 
 print set1.intersection(set2)
